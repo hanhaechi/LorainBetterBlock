@@ -69,10 +69,17 @@ h6 {
 
 .lead {
 	background-color: rgba(35, 41, 47, 0.8);
-	color: rgba(255, 255, 255, 0.7);
 	padding: 5%;
 	line-height: 2.3rem;
 	border-radius: 5px;
+}
+
+p.lead {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+h2.lead {
+  font-size: 2rem;
 }
 
 .text-muted {
@@ -263,7 +270,7 @@ header.masthead p {
 		display: none;
 	}
 	.navbar-brand:after {
-		content: "LBB"
+		content: "LBB 2019"
 	}
 }
 
